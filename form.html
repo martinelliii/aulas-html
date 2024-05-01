@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <p>Qual sua rede social favorita?</p>
+        <div>
+            <label for="facebook">Facebook</label>
+            <input type="radio" id="facebook" name="redeSocial" value="facebook" required>
+        </div>
+
+        <div>
+            <label for="snapchat">Snapchat</label>
+            <input type="radio" id="snapchat" name="redeSocial" value="snapchat" required>
+        </div>
+
+        <div>
+            <label for="instagram">Instagram</label>
+            <input type="radio" id="instagram" name="redeSocial" value="instagram" required>
+        </div>
+
+        <button type="submit">Enviar</button>
+
+        <div>
+            <label for="times">Escolha seu time</label>
+        </div>
+
+        <div>
+            <select name="time" id="times" required>
+                <option value="">Escolha seu time favorito</option>
+                <option value="sp">São Paulo</option>
+                <option value="san">Santos </option>
+                <option value="pal">Palmeiras</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+
+        <div>
+            <label for="redacao">Envie sua redação:</label>
+            <textarea name="redacao" id="redacao" cols="30" rows="5" placeholder="Escreva aqui sua redação..."></textarea>
+        </div>
+        
+    </form>
+</body>
+</html>
